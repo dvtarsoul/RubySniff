@@ -12,7 +12,7 @@ class WifiSniffer
     @filter = filter
     @output = output
     @verbose = verbose
-    @capture = Pcap::Capture.open_live(@interface, 65535, true, 0)
+    @capture = PCAPRUB::Pcap.open_live(@interface, 65535, true, 0)
     @capture.setfilter(@filter) if @filter
     @rows = []
   end
