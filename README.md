@@ -23,13 +23,14 @@ RubySniff is an advanced network packet sniffer written in Ruby, designed to cap
 ## 🔌 Installation
 
 1. Install Ruby if you haven't already. You can download it from [ruby-lang.org](https://www.ruby-lang.org/en/downloads/).
-2. Install the required gems:
+2. Or for linux users: `sudo apt-get install ruby gem libpcap-dev ruby-dev`
+3. Install the required gems:
 
     ```bash
     gem install pcaprub colorize terminal-table tty-prompt tty-spinner
     ```
 
-3. Clone this repository:
+4. Clone this repository:
 
     ```bash
     git clone https://github.com/dvtarsoul/RubySniff
